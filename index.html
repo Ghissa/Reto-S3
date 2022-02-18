@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumpas: ¡ La compañia perfecta para ti !</title>
+    <meta name="title" content="Kumpas: ¡ La compañia perfecta para ti !" />
+    <meta
+      name="description"
+      content=" Web responsiva de venta y comercio de plantas "
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <div class="fondo.png"></div>
+  </head>
+
+
+<body>
+
+  <body class="header">
+    <header class="header">
+      <nav class="header-nav">
+        <a href="#kumpas" class="header-nav__link-logo-container">
+          <img
+            src="https://clarissaghiordany.files.wordpress.com/2022/01/copia-de-logo-kumpas.png?w=1400&h="
+            alt="Logo Kumpas"
+            class="header-nav__logo"
+            width="80 rem"
+          />
+        </a>
+        <ul class="header-nav__link-list">
+          <li class="header-nav__link-item">
+            <a href="#Sobre nosotros" class="header-nav__link"
+              >Sobre nosotros</a
+            >
+          </li>
+          <li class="header-nav__link-item">
+            <a href="#Pedidos" class="header-nav__link">Pedidos</a>
+          </li>
+
+          <li class="header-nav__link-item">
+            <a href="#Contactanos" class="header-nav__link">Contáctanos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="wave-separator--r-180deg">
+        <figure class="wave-separator__wave-container">
+          <img
+            src="./wave.svg"
+            alt="Wave de separación"
+            class="wave-separator__wave"
+          />
+        </figure>
+      </section>
+      <article class="Kumpas" id="Kumpas">
+        <div class="kumpas-container">
+          <div class="kumpas__info">
+            <h1 class="kumpas__info-title">
+              Kumpas: ¡ La compañia perfecta para ti !
+            </h1>
+            <h2 class="kumpas__info-description">
+              En Kumpas queremos brindarte el bienestar físico y mental a través
+              de la conexión con la naturaleza por medio de las plantas mediante
+              un servicio de acompañamiento y seguimiento personalizado para que
+              puedas encontrar la compañía perfecta para ti!
+            </h2>
+          </div>
+          <div class="kumpas__cover-image">
+            <figure class="kumpas__image-container">
+              <img
+                src="./kit-removebg-preview.png"
+                alt="Logo Kumpas"
+                class="kumpas__image"
+                width="10rem"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="kumpas__info-link-container">
+          <a href="#" class="kumpas__info-link">Conectate con nosotros</a>
+          <a href="#" class="kumpas__info-link"
+            >¿Quieres un kumpañero o kumpañera?</a
+          >
+        </div>
+      </article>
+
+      <section class="wave-separator">
+        <figure class="wave-separator__wave-container">
+          <img
+            src="./wave.svg"
+            alt="Wave de separación"
+            class="wave-separator__wave"
+          />
+        </figure>
+      </section>
+
+      <section class="bienestar" id="bienestar">
+        <div class="bienestar-container">
+          <h1 class="bienestar__title">
+            ¿Porqué tener plantas contribuye a tu bienestar?
+          </h1>
+          <div class="bienestar__estarbienestar">
+            <section class="bienestar__todobienestar">
+              <h2 class="bienestar__benefits1">Purificación</h2>
+              <ul class="bienestar__descriptions">
+                <li class="bienestar__description">
+                  Las plantas son filtros naturales ya que procesan el dioxido
+                  de carbono del ambiente y lo purifican convirtiendolo en
+                  oxígeno
+                </li>
+              </ul>
+            </section>
+            <section class="bienestar__todobienestar">
+              <h2 class="bienestar__benefits2">Bienestar</h2>
+              <ul class="bienestar__descriptions">
+                <li class="bienestar__description">
+                  Mejora el estado anímico,ayuda contra la depresión y brinda
+                  relajación
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="wave-separator--r-180deg">
+        <figure class="wave-separator__wave-container">
+          <img
+            src="./wave.svg"
+            alt="Wave de separación"
+            class="wave-separator__wave"
+          />
+        </figure>
+      </section>
+
+      <section class="preferencias">
+        <div class="preferencias-container">
+          <h2 class="preferencias__title">¿Cuál es tu planta favorita?</h2>
+          <ul class="preferencias__preferencias-list">
+            <li class="preferencias__preferencia">Suculentas</li>
+            <li class="preferencias__preferencia">Cactus</li>
+            <li class="preferencias__preferencia">Florales</li>
+            <li class="preferencias__preferencia">Medicinales</li>
+            <li class="preferencias__preferencia">Frutales</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="deseo" id="deseo">
+        <div class="deseo-container">
+          <h2 class="deseo__tittle">¿ Deseas un kumpañero o kumpañera ?</h2>
+          <form action="/" class="deseo__form">
+            <input
+              type="text"
+              placeholder="Nombre"
+              name="nombre"
+              class="deseo__form-input"
+              required
+              pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+              title="No se aceptan caracteres especiales ni números"
+            />
+            <input
+              type="email"
+              placeholder="Correo"
+              name="email"
+              class="deseo__form-input"
+              required
+            />
+            <input
+              type="number"
+              id="celular"
+              placeholder="Celular"
+              name="celular"
+              class="deseo__form-input"
+              min="900000000"
+              max="999999999"
+              required
+            />
+            <textarea
+              placeholder="Mensaje"
+              name="mensaje"
+              cols="30"
+              rows="10"
+              class="deseo__form-input"
+              required
+            ></textarea>
+            <button class="deseo__form-button">¡ Quiero un kumpas !</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="wave-separator">
+        <figure class="wave-separator__wave-container">
+          <img
+            src="./wave.svg"
+            alt="Wave de separación"
+            class="wave-separator__wave"
+          />
+        </figure>
+      </section>
+    </main>
+
+    <footer class="sección-final" id="sección-final">
+      <p>Desarrollado por Clarissa Palomino &copy; 2022</p>
+    </footer>
+  </body>
+</html>
