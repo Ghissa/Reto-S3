@@ -12,7 +12,7 @@
 
 .header {
     background-color: #e2d7d1;
-    background-image: url("../fondo.png");
+    background-image: url("../IMAGENES/fondo.png");
     position: sticky;
     top: 0;
     z-index: 100;
@@ -478,7 +478,7 @@ width: 100%;
 
 @media (min-width: 854px){
     .header-nav__logo {
-      display: none;
+      display: flex;
     }
     .header-nav__link-list {
       position: static;
