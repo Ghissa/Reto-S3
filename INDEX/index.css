@@ -12,7 +12,7 @@
 
 .header {
     background-color: #e2d7d1;
-    background-image: url("../IMAGENES/fondo.png");
+    background-image: url("../INDEX/fondo.png");
     position: sticky;
     top: 0;
     z-index: 100;
