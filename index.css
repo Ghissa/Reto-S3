@@ -10,7 +10,7 @@
 
 .header {
     background-color: #e2d7d1;
-    background-image: url(../IMAGENES/fondo.png);
+    background-image: url(IMAGENES\fondo.png);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -297,7 +297,7 @@ width: 100%;
     text-transform: uppercase;
     font-size: 8rem;
     font-weight:bolder;
-    background-image: url(../IMAGENES/catalogo.jpg);
+    background-image: url("IMAGENES\macetero.png");
     background-size: cover ;
     background-position-y:center ;
     background-clip: text;
