@@ -5,7 +5,6 @@
 }
 
 
-
 .body {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -476,4 +475,37 @@ width: 100%;
     transform: scale(1.5);
 
 }
-@
+
+@media (min-width: 854px){
+    .header-nav__logo {
+      display: none;
+    }
+    .header-nav__link-list {
+      position: static;
+      flex-direction: row;
+      width: auto;
+      background-color: inherit;
+    }
+    .header-nav__link {
+      font-size: 1rem;
+      color: black;
+    }
+    .kumpas{
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: auto;
+    }
+
+    .bienestar-container{
+      align-items: center;
+      padding: 0;
+      max-width: 64rem;
+      margin: auto;
+    }
+    
+   .bienestar__icon-image{
+    max-width: 100%;
+    height: auto;
+}
+}
