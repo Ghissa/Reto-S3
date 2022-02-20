@@ -117,24 +117,31 @@
     background-color: #949868;
     color: #fff;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr; */
     margin: 0 auto;
     gap: 2rem;
     padding: 0 3rem;
     list-style: none;
     text-align: center;
-   
+
 }
 
 .bienestar-container {
-    grid-template-columns: 1fr;
-    align-items: center;
+    display: flex;
+    direction: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: left;
+    width: 100%;
     gap: 2rem;
-    max-width: 1024px;
     margin: auto;
     padding: 0rem;
-    animation: 5seg; 
-   
+    max-width: 1024px;
+
+}
+
+.bienestar__image {
+    width: 100%;
 }
 
 .bienestar__title {
@@ -143,6 +150,7 @@
     text-align: center;
 }
 
+
 .bienestar__estarbienestar {
     display: flex;
     flex-direction: column;
@@ -150,51 +158,31 @@
 }
 
 .bienestar__todobienestar {
-    display: flex;
+    /*grid-template-columns: 150px 150px ;*/
+
+    flex-wrap: nowrap;
     flex-direction: column;
-    padding: 1rem 0;
-   /* border-radius: 5rem;
-    box-shadow: 0 0 0 0.15rem var(--color-text-ultralight)*/
+    margin: 0 auto;
+    display: flex;
+    padding: 0 rem 3;
 }
 
-/*.bienestar__todobienestar:hover {
-box-shadow: 0 0 0 0.25rem var(--color-text-light), 0 0 0 0.5rem var(--color-text-ultralight);
-}*/
 
-.bienestar__icon-image
-{
+.bienestar__icon-image {
     width: 5rem;
-    
     border: none;
     align-self: center;
 
-
-
 }
+
 .bienestar__benefits1 {
     font-size: 1.5rem;
     place-content: left;
 }
 
-.bienestar__benefits1::after {
-    content: "💦";
-}
-
-.bienestar__benefits1::before {
-    content: "💦";
-}
-
 .bienestar__benefits2 {
     font-size: 1.5rem;
     place-content: left;
-}
-
-.bienestar__benefits2::after {
-    content: "🌟";
-}
-
-.bienestar__benefits2::before {
-    content: "🌟";
 }
 
 .bienestar__descriptions {
@@ -277,6 +265,21 @@ box-shadow: 0 0 0 0.25rem var(--color-text-light), 0 0 0 0.5rem var(--color-text
     box-shadow: 0 0 0.5rem 0.25rem #76604e;
     transform: scale(1.25);
 }
+
+.plantas_cards {
+    width:30%;
+    text-align: center;
+    height: 20rem;
+
+}
+.plantas_title
+.plantas_container
+.cards
+
+
+
+
+
 
 .deseo {
     color: #76604e;
