@@ -3,8 +3,6 @@
 :root{
     scroll-behavior: smooth;
 }
-
-
 .body {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -12,7 +10,7 @@
 
 .header {
     background-color: #e2d7d1;
-    background-image: url("../INDEX/fondo.png");
+    background-image: url(IMAGENES\fondo.png);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -128,7 +126,6 @@
     background-color: #949868;
     color: #fff;
     display: grid;
-    /*grid-template-columns: 1fr 1fr; */
     margin: 0 auto;
     gap: 2rem;
     padding: 0 3rem;
@@ -300,7 +297,7 @@ width: 100%;
     text-transform: uppercase;
     font-size: 8rem;
     font-weight:bolder;
-    background-image: url(./catalogo.jpg);
+    background-image: url(IMAGENES\catalogo.jpg);
     background-size: cover ;
     background-position-y:center ;
     background-clip: text;
